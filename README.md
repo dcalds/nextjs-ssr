@@ -1,6 +1,15 @@
-# Next.js - Server Side Rendering Example
+<div style="text-align:center">
+    <img src="https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png" alt="nextjs" title="nextjs" height="80"/>
+</div>
 
-## Exemplo de aplicação Next.js, um framework que utiliza React JS com suporte ao SSR
+<div style="text-align:center">
+
+# ****Next.js Blog com Server Side Rendering****
+
+### Exemplo de aplicação Next.js, um framework que utiliza React JS com suporte ao SSR
+
+</div>
+
 
 Para iniciar um projeto utilizando Next.js já configurado basta digitar este comando no seu terminal:
 

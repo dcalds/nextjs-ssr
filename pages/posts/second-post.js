@@ -7,7 +7,7 @@ export default function SecondPost() {
     return (
         <Layout>
             <Head>
-                <title>Primeiro Post</title>
+                <title>Segundo Post</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
@@ -15,7 +15,7 @@ export default function SecondPost() {
 
                 <h1> Segundo Post </h1>
 
-                <h2> Configurando o projeto </h2>
+                <h2> Utilizando HOCs (High Order Components) </h2>
 
                 <Link href="/">
                     <a> Voltar </a>

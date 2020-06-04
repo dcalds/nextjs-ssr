@@ -7,7 +7,7 @@ export default function ThirdPost() {
     return (
         <Layout>
             <Head>
-                <title>Primeiro Post</title>
+                <title>Terceiro Post</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
@@ -15,7 +15,7 @@ export default function ThirdPost() {
 
                 <h1> Terceiro Post </h1>
 
-                <h2> Criando rotas na aplicação </h2>
+                <h2> Servidor Customizado </h2>
 
                 <Link href="/">
                     <a> Voltar </a>
