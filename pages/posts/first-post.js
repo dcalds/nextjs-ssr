@@ -3,8 +3,6 @@ import Link from 'next/link'
 
 import axios from 'axios'
 
-import Layout from '../../components/Layout'
-
 function FirstPost({ userData }) {
     return (
         <>
@@ -12,7 +10,6 @@ function FirstPost({ userData }) {
                 <title>Primeiro Post</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Layout>
 
                 <div>
 
@@ -32,8 +29,6 @@ function FirstPost({ userData }) {
                         <a> Voltar </a>
                     </Link>
                 </div>
-
-            </Layout>
         </>
     )
 }
