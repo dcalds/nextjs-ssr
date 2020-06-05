@@ -42,3 +42,5 @@ ou
 
 npm run dev
 ```
+
+> Este projeto está integrado ao Vercel, que automaticamente configura o deploy contínuo. [https://nextjs-ssr-6j5opd6ax.now.sh/](https://nextjs-ssr-6j5opd6ax.now.sh/)

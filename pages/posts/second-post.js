@@ -5,23 +5,25 @@ import Layout from '../../components/Layout'
 
 export default function SecondPost() {
     return (
-        <Layout>
+        <>
             <Head>
                 <title>Segundo Post</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+            <Layout>
 
-            <div>
+                <div>
 
-                <h1> Segundo Post </h1>
+                    <h1> Segundo Post </h1>
 
-                <h2> Utilizando HOCs (High Order Components) </h2>
+                    <h2> Utilizando HOCs (High Order Components) </h2>
 
-                <Link href="/">
-                    <a> Voltar </a>
-                </Link>
-            </div>
+                    <Link href="/">
+                        <a> Voltar </a>
+                    </Link>
+                </div>
 
-        </Layout>
+            </Layout>
+        </>
     )
 }

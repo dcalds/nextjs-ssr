@@ -7,32 +7,34 @@ import Layout from '../../components/Layout'
 
 function FirstPost({ userData }) {
     return (
-        <Layout>
+        <>
             <Head>
                 <title>Primeiro Post</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+            <Layout>
 
-            <div>
+                <div>
 
-                <h1> Primeiro Post </h1>
+                    <h1> Primeiro Post </h1>
 
-                <h2> Fazendo uma requisição usando o getInitialProps </h2>
+                    <h2> Fazendo uma requisição usando o getInitialProps </h2>
 
-                {
-                    <div>
-                        <p> Nome: {userData.name} </p>
-                        <p> Login: {userData.login} </p>
-                        <p> ID: {userData.id} </p>
-                    </div>
-                }
+                    {
+                        <div>
+                            <p> Nome: {userData.name} </p>
+                            <p> Login: {userData.login} </p>
+                            <p> ID: {userData.id} </p>
+                        </div>
+                    }
 
-                <Link href="/">
-                    <a> Voltar </a>
-                </Link>
-            </div>
+                    <Link href="/">
+                        <a> Voltar </a>
+                    </Link>
+                </div>
 
-        </Layout>
+            </Layout>
+        </>
     )
 }
 
