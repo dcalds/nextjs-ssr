@@ -12,6 +12,7 @@ function Home() {
       <Head>
         <title>Danilo Caldas - Blog Pessoal</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Renderizando páginas do lado do servidor utilizando Next.js"></meta>
       </Head>
 
       <Title>

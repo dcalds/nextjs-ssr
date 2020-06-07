@@ -9,6 +9,7 @@ function FirstPost({ userData }) {
             <Head>
                 <title>Primeiro Post</title>
                 <link rel="icon" href="/favicon.ico" />
+                <meta name="description" content="Aprendendo como realizar uma requisição ajax em páginas web com o getInitialProps" />
             </Head>
 
                 <div>
