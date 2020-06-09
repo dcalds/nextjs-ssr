@@ -1,14 +1,14 @@
-<div style="text-align:center">
+<p align="center">
     <img src="https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png" alt="nextjs" title="nextjs" height="80"/>
-</div>
+</p>
 
-<div style="text-align:center">
+<p align="center">
 
 # ****Next.js Blog com Server Side Rendering****
 
 ### Exemplo de aplicação Next.js, um framework que utiliza React JS com suporte ao SSR
 
-</div>
+</p>
 
 
 Para iniciar um projeto utilizando Next.js já configurado basta digitar este comando no seu terminal:
@@ -43,4 +43,4 @@ ou
 npm run dev
 ```
 
-> Este projeto está integrado ao Vercel, que automaticamente configura o deploy contínuo. [https://nextjs-ssr-6j5opd6ax.now.sh/](https://danilocaldas.now.sh/)
+> Este projeto está integrado ao Vercel, que automaticamente configura o deploy contínuo. [Acesse aqui](https://danilocaldas.now.sh/)

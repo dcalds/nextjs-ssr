@@ -1,9 +1,9 @@
-import styles from './styles.module.css'
+import styles from '../styles.module.css'
 
 export default function Title({ children }) {
     return (
-      <h1 className={styles.title}>
+      <p className={styles.title}>
         {children}
-      </h1>
+      </p>
     )
   }

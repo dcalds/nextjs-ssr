@@ -1,38 +1,38 @@
 import Head from 'next/head'
-import Link from 'next/link'
 
 import Title from '../components/Title'
-import Subtitle from '../components/Subtitle'
-import Posts from '../components/Posts'
-import AcessButton from '../components/AcessButton'
+import Featured from '../components/Featured'
 
 function Home() {
   return (
-    <>
+    <section className="d-flex flex-column justify-content-center align-items-center">
       <Head>
         <title>Danilo Caldas - Blog Pessoal</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Renderizando páginas do lado do servidor utilizando Next.js"></meta>
       </Head>
 
-      <Title>
-        Danilo Caldas
-      </Title>
+      <div className="col-lg-7">
+        <Title>
+          Blog.
+        </Title>
+      </div>
 
-      <Subtitle>
-        Meu blog pessoal
-      </Subtitle>
+      <div className="col-lg-7">
+        <Featured>
+          Começando com Next.js
+        </Featured>
+        
+        <Featured>
+          Configuração de pastas e arquivos
+        </Featured>
+        
+        <Featured>
+          Estilização de componentes
+        </Featured>
+      </div>
 
-      <Posts>
-
-        <Link href="/posts/first-post">
-          <p> Fazendo uma requisição usando o getInitialProps </p>
-        </Link>
-
-      </Posts>
-
-
-    </>
+    </section>
   )
 }
 

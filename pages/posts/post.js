@@ -5,7 +5,7 @@ import axios from 'axios'
 
 function FirstPost({ userData }) {
     return (
-        <>
+        <section className="d-flex flex-column justify-content-center align-items-center">
             <Head>
                 <title>Primeiro Post</title>
                 <link rel="icon" href="/favicon.ico" />
@@ -14,7 +14,7 @@ function FirstPost({ userData }) {
 
                 <div>
 
-                    <h1> Primeiro Post </h1>
+                    <h1> Trabalhando nesta página... </h1>
 
                     <h2> Fazendo uma requisição usando o getInitialProps </h2>
 
@@ -30,7 +30,7 @@ function FirstPost({ userData }) {
                         <a> Voltar </a>
                     </Link>
                 </div>
-        </>
+        </section>
     )
 }
 

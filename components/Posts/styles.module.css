@@ -1,8 +1,0 @@
-.postcard {
-    display: flex;
-    max-width: 450px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    cursor: pointer;
-}
