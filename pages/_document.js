@@ -14,6 +14,14 @@ class MyDocument extends Document {
                     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                     <meta name="description" content="Aprendendo sobre search engine optimization utilizando a ferramenta Next.js" />
                     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"></link>
+                    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet"
+                        id="font-awesome-5-kit-css" />
+                    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all"
+                        rel="stylesheet" id="font-awesome-5-kit-css" />
+                    <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet"
+                        id="font-awesome-5-kit-css" />
+                    <script src="https://kit.fontawesome.com/63b4b25a67.js" crossorigin="anonymous"></script>
+                    <link href="/static/css/main.c86fa80c.chunk.css" rel="stylesheet"></link>
                 </Head>
                 <body>
                     <Main />
